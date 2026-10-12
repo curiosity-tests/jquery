@@ -1,9 +1,6 @@
 name: Browser Tests (Beta)
 
 on:
-  schedule:
-    # Run weekly on Sunday at 3 AM UTC to catch beta browser updates
-    - cron: '0 3 * * 0'
   workflow_dispatch:
     # Allow manual triggering from the Actions tab
 
